@@ -1,0 +1,31 @@
+  DisplayDeviceInfo{"Built-in Screen": uniqueId="local:4633128672291735931", 1080 x 2408, modeId 1, renderFrameRate 60.0, defaultModeId 1, supportedModes [{id=1, width=1080, height=2408, fps=60.0, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}, {id=2, width=1080, height=2408, fps=90.0, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}], colorMode 0, supportedColorModes [0], hdrCapabilities HdrCapabilities{mSupportedHdrTypes=[], mMaxLuminance=500.0, mMaxAverageLuminance=500.0, mMinLuminance=0.0}, allmSupported false, gameContentTypeSupported false, density 450, 403.411 x 399.759 dpi, appVsyncOff 0, presDeadline 17666667, cutout DisplayCutout{insets=Rect(0, 65 - 0, 0) waterfall=Insets{left=0, top=0, right=0, bottom=0} boundingRect={Bounds=[Rect(0, 0 - 0, 0), Rect(470, 0 - 610, 65), Rect(0, 0 - 0, 0), Rect(0, 0 - 0, 0)]} cutoutPathParserInfo={CutoutPathParserInfo{displayWidth=1080 displayHeight=2408 physicalDisplayWidth=1080 physicalDisplayHeight=2408 density={2.8125} cutoutSpec={M 0,0 H -24.88888888888889‬ V 23.11111111111111‬ H 24.88888888888889‬ V 0 H 0 Z @dp} rotation={0} scale={1.0} physicalPixelDisplaySizeRatio={1.0}}}}, touch INTERNAL, rotation 0, type INTERNAL, address {port=123, model=0x404c2dfae6a049}, deviceProductInfo DeviceProductInfo{name=samsung lcd  , manufacturerPnpId=SAM, productId=0, modelYear=null, manufactureDate=ManufactureDate{week=16, year=2020}, connectionToSinkType=0}, state ON, committedState ON, frameRateOverride , brightnessMinimum 0.0, brightnessMaximum 1.0, brightnessDefault 0.5019608, hdrSdrRatio NaN, FLAG_ALLOWED_TO_BE_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS, FLAG_TRUSTED, installOrientation 0, displayShape DisplayShape{ spec=-311912193 displayWidth=1080 displayHeight=2408 physicalPixelDisplaySizeRatio=1.0 rotation=0 offsetX=0 offsetY=0 scale=1.0}}
+    mActiveModeId=1
+    mDefaultModeId=1
+      DisplayModeRecord{mMode={id=1, width=1080, height=2408, fps=60.0, alternativeRefreshRates=[90.0], supportedHdrTypes=[]}}
+      DisplayModeRecord{mMode={id=2, width=1080, height=2408, fps=90.0, alternativeRefreshRates=[60.0], supportedHdrTypes=[]}}
+
+	Refresh Rate Map:
+		For ideal period 11.11ms: period = 11.11ms, intercept = 0
+		For ideal period 16.67ms: period = 16.61ms, intercept = -967071
+VsyncDispatch:
+  refresh-rate              : 60.00 Hz
+
+audit/settings-global.txt:enable_back_animation=0
+audit/settings-global.txt:pms_settings_refresh_rate_enabled=0
+audit/settings-global.txt:psm_refresh_rate_tag_power_mode_state=0
+audit/settings-global.txt:remove_animations=0
+audit/settings-global.txt:sem_power_mode_refresh_rate=0,0,-1,1
+audit/settings-global.txt:sem_power_mode_refresh_rate_cover=0,0,-1,0
+audit/settings-global.txt:transition_animation_scale=1.0
+audit/settings-global.txt:window_animation_scale=1.0
+audit/settings-secure.txt:display_density_forced=450
+audit/settings-secure.txt:pms_override_refresh_rate_mode=-1
+audit/settings-secure.txt:refresh_rate_mode=1
+audit/settings-system.txt:font_scale=1.0
+audit/settings-system.txt:remove_animations=0
+audit/settings-system.txt:screen_brightness=70
+audit/settings-system.txt:screen_brightness_mode=1
+audit/settings-system.txt:screen_off_timeout=1800000
+audit/settings-system.txt:sub_screen_brightness_mode=0
+Physical size: 1080x2408
+Physical density: 450

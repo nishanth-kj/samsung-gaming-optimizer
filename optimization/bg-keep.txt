@@ -1,0 +1,21 @@
+# Apps that are NEVER background-restricted by item R1 (one package per line, # = comment)
+# Game
+com.dts.freefiremax
+# Keyboard (default input method) - restricting it breaks typing
+com.google.android.inputmethod.latin
+# Home screen launchers (bitpit is your current default)
+bitpit.launcher
+com.teslacoilsw.launcher
+com.qqlabs.minimalistlauncher
+# VPN / firewall - restricting a VPN app can cut internet
+com.cloudflare.onedotonedotonedotone
+eu.faircode.netguard
+# 2-step login codes
+com.azure.authenticator
+com.google.android.apps.authenticator2
+# Google Play Games (game sign-in for FF)
+com.google.android.play.games
+# Updated system components that show up as "third-party"
+com.google.android.contactkeys
+com.google.android.safetycore
+com.google.android.verifier

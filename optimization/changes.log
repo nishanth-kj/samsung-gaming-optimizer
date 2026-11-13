@@ -1,0 +1,42 @@
+[Fri Nov 13 02:32:01 IST 2026] C1 pm trim-caches 999G (cache only, not reversible) - user approved
+[Fri Nov 13 02:32:13 IST 2026] cleared data of com.google.android.tts (TTS voices/speech models, ~1.2 GB) - user approved; voices re-download when needed
+[Fri Nov 13 02:32:19 IST 2026] settings global ram_expand_size: 6144 -> 2048 (RAM Plus 6 GB -> 2 GB, applies after restart) - user approved
+[13-11-2026  2:34:14.50] settings global window_animation_scale: 1.0 -> 0.5
+[13-11-2026  2:34:14.82] settings global transition_animation_scale: 1.0 -> 0.5
+[13-11-2026  2:34:15.18] settings global animator_duration_scale: 1.0 -> 0.5
+[13-11-2026  2:34:34.89] settings global wifi_scan_always_enabled: 1 -> 0
+[13-11-2026  2:34:35.24] settings global ble_scan_always_enabled: null -> 0
+[13-11-2026  2:34:35.62] settings global sem_wifi_switch_to_better_wifi_enabled: 1 -> 0
+[13-11-2026  2:34:35.98] settings system game_no_interruption: 0 -> 1
+[13-11-2026  2:34:36.33] settings secure game_autobrightness_lock: 0 -> 1
+[13-11-2026  2:34:36.65] settings secure game_double_swipe_enable: 0 -> 1
+[13-11-2026  2:34:37.03] settings secure refresh_rate_mode: 1 -> 0
+[13-11-2026  2:34:37.34] disabled com.aura.oobe.samsung
+[13-11-2026  2:34:37.74] disabled com.facebook.appmanager
+[13-11-2026  2:34:38.17] disabled com.facebook.services
+[13-11-2026  2:34:38.44] disabled com.facebook.system
+[13-11-2026  2:34:38.85] disabled com.opera.max.oem
+[13-11-2026  2:34:39.29] disabled com.samsung.ecomm.global.in
+[13-11-2026  2:34:39.64] disabled com.samsung.android.dynamiclock
+[13-11-2026  2:34:40.08] disabled com.samsung.android.arzone
+[13-11-2026  2:34:40.36] disabled com.samsung.android.aremoji
+[13-11-2026  2:34:40.80] disabled com.samsung.android.aremojieditor
+[13-11-2026  2:34:41.26] disabled com.sec.android.mimage.avatarstickers
+[13-11-2026  2:34:41.62] disabled com.samsung.android.app.parentalcare
+[13-11-2026  2:34:42.00] disabled com.samsung.android.kidsinstaller
+[13-11-2026  2:34:42.32] disabled com.samsung.android.app.watchmanagerstub
+[13-11-2026  2:34:42.63] disabled com.samsung.storyservice
+[13-11-2026  2:34:42.99] disabled com.sec.android.autodoodle.service
+[13-11-2026  2:34:43.30] disabled com.samsung.android.ipsgeofence
+[13-11-2026  2:34:43.62] disabled com.snap.camerakit.plugin.v1
+[13-11-2026  2:34:44.04] disabled com.sec.android.app.chromecustomizations
+[13-11-2026  2:34:44.40] disabled com.samsung.android.widget.pictureframe
+[13-11-2026  2:34:44.74] disabled com.google.android.apps.tachyon
+[13-11-2026  2:34:45.23] disabled com.samsung.android.game.gameclock
+[13-11-2026  2:34:45.58] disabled com.samsung.android.game.gifcreator
+[13-11-2026  2:34:45.95] disabled com.samsung.android.gamesightplugin
+[13-11-2026  2:35:47.52] background restriction: RESULT restricted=230 kept=13 failed=0 restore_recorded_now=1
+[Fri Nov 13 02:39:53 IST 2026] A/B test: refresh_rate_mode 0 -> 1 (90 Hz) temporarily
+[Fri Nov 13 02:41:06 IST 2026] A/B result: 90 Hz better (60.1 FPS, 0.59% stutters) than 60 Hz (51.7 FPS, 5.9%). KEEPING refresh_rate_mode=1 (90 Hz). D1 reverted.
+[Fri Nov 13 02:41:59 IST 2026] reboot to apply RAM Plus 2 GB (user: fix all)
+[Fri Nov 13 02:43:31 IST 2026] after reboot: G1 game settings were reset to 0 by Game Booster itself (must be set in Game Booster UI). RAM Plus now 2 GB verified.

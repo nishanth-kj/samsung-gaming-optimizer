@@ -1,0 +1,48 @@
+MODEL=SM-E146B
+MARKET=
+DEVICE=m14x
+MANUF=samsung
+ANDROID=14
+SDK=34
+ONEUI=60100
+BUILD=UP1A.231005.007.E146BXXS7CYB1
+PDA=E146BXXS7CYB1
+PATCH=2025-02-01
+PLATFORM=erd8535
+HW=s5e8535
+SOC=s5e8535 Samsung
+ABI=arm64-v8a,armeabi-v7a,armeabi
+CSC=INS
+KNOX=0 green
+GLES=196610
+VULKAN=mali
+KERNEL=5.15.153-android13-3-28577532
+
+      6 CPU part	: 0xd05
+      2 CPU part	: 0xd41
+      1 processor	: 0
+      1 processor	: 1
+      1 processor	: 2
+      1 processor	: 3
+      1 processor	: 4
+      1 processor	: 5
+      1 processor	: 6
+      1 processor	: 7
+
+/sys/devices/system/cpu/cpu0 2002000
+/sys/devices/system/cpu/cpu1 2002000
+/sys/devices/system/cpu/cpu2 2002000
+/sys/devices/system/cpu/cpu3 2002000
+/sys/devices/system/cpu/cpu4 2002000
+/sys/devices/system/cpu/cpu5 2002000
+/sys/devices/system/cpu/cpu6 2400000
+/sys/devices/system/cpu/cpu7 2400000
+
+MemTotal:        5603796 kB
+MemFree:          314556 kB
+MemAvailable:    2147652 kB
+Buffers:            2012 kB
+Cached:          1935104 kB
+
+Physical size: 1080x2408
+Physical density: 450

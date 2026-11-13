@@ -1,0 +1,19 @@
+*Dump GameManagerService*
+
+[Name:com.stockfish141 Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:uk.co.aifactory.chessfree Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:com.supercell.clashofclans Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:com.dts.freefiremax Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:com.mojang.minecraftpe Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:org.lichess.mobileapp Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:com.chess Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+[Name:com.bitmango.rolltheballunrollme Modes: {1=[Game Mode:1,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 2=[Game Mode:2,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1], 3=[Game Mode:3,Scaling:1.0,Use Angle:false,Fps:,Loading Boost Duration:-1]}]
+
+ No intervention found for package com.samsung.android.game.gameboosterplus

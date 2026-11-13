@@ -1,0 +1,26 @@
+# Item B1 - SAFE preloads to disable (pm disable-user --user 0). See reports\bloatware-analysis.md section A.
+# Put # in front of any line to skip it.
+com.aura.oobe.samsung
+com.facebook.appmanager
+com.facebook.services
+com.facebook.system
+com.opera.max.oem
+com.samsung.ecomm.global.in
+com.samsung.android.dynamiclock
+com.samsung.android.arzone
+com.samsung.android.aremoji
+com.samsung.android.aremojieditor
+com.sec.android.mimage.avatarstickers
+com.samsung.android.app.parentalcare
+com.samsung.android.kidsinstaller
+com.samsung.android.app.watchmanagerstub
+com.samsung.storyservice
+com.sec.android.autodoodle.service
+com.samsung.android.ipsgeofence
+com.snap.camerakit.plugin.v1
+com.sec.android.app.chromecustomizations
+com.samsung.android.widget.pictureframe
+com.google.android.apps.tachyon
+com.samsung.android.game.gameclock
+com.samsung.android.game.gifcreator
+com.samsung.android.gamesightplugin

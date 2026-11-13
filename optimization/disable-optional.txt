@@ -1,0 +1,36 @@
+# Item B2 - OPTIONAL preloads. Everything starts commented out (#).
+# Remove the # only for the ones you approve. See reports\bloatware-analysis.md section B.
+#com.samsung.android.rubin.app
+#com.samsung.android.dqagent
+#com.sec.android.diagmonagent
+#com.samsung.android.app.routines
+#com.samsung.android.forest
+#com.samsung.android.intellivoiceservice
+#com.samsung.android.callassistant
+#com.samsung.android.smartface
+#com.samsung.android.spaymini
+#com.samsung.android.scloud
+#com.samsung.android.app.updatecenter
+#com.samsung.android.themestore
+#com.sec.android.app.billing
+#com.samsung.android.beaconmanager
+#com.samsung.android.service.peoplestripe
+#com.samsung.android.app.clipboardedge
+#com.samsung.android.app.taskedge
+#com.samsung.android.app.appsedge
+#com.samsung.android.stickercenter
+#com.samsung.android.app.dressroom
+#com.samsung.android.app.reminder
+#com.samsung.attribution
+#com.samsung.android.setupindiaservicestnc
+#com.samsung.discover
+#com.samsung.discover.sep
+#com.samsung.android.smartswitchassistant
+#com.sec.android.easyMover.Agent
+#com.samsung.android.game.gameboosterplus
+#com.google.android.projection.gearhead
+#com.microsoft.appmanager
+#com.microsoft.skydrive
+#com.hiya.star
+#com.google.android.apps.turbo
+#com.samsung.android.da.daagent

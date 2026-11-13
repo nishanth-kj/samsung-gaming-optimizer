@@ -1,0 +1,849 @@
+  PID USER            RSS NAME                       
+    1 root           3992 init
+    2 root              0 [kthreadd]
+    3 root              0 [rcu_gp]
+    4 root              0 [slub_flushwq]
+    5 root              0 [netns]
+    9 root              0 [mm_percpu_wq]
+   11 root              0 [rcu_tasks_kthread]
+   12 root              0 [rcu_tasks_trace_kthread]
+   13 root              0 [ksoftirqd/0]
+   14 root              0 [rcu_preempt]
+   15 root              0 [rcub/0]
+   16 root              0 [rcuc/0]
+   17 root              0 [rcu_exp_gp_kthread_worker]
+   18 root              0 [rcu_exp_par_gp_kthread_worker]
+   19 root              0 [migration/0]
+   20 root              0 [idle_inject/0]
+   21 root              0 [cpuhp/0]
+   22 root              0 [cpuhp/1]
+   23 root              0 [idle_inject/1]
+   24 root              0 [migration/1]
+   25 root              0 [rcuc/1]
+   26 root              0 [ksoftirqd/1]
+   29 root              0 [cpuhp/2]
+   30 root              0 [idle_inject/2]
+   31 root              0 [migration/2]
+   32 root              0 [rcuc/2]
+   33 root              0 [ksoftirqd/2]
+   36 root              0 [cpuhp/3]
+   37 root              0 [idle_inject/3]
+   38 root              0 [migration/3]
+   39 root              0 [rcuc/3]
+   40 root              0 [ksoftirqd/3]
+   43 root              0 [cpuhp/4]
+   44 root              0 [idle_inject/4]
+   45 root              0 [migration/4]
+   46 root              0 [rcuc/4]
+   47 root              0 [ksoftirqd/4]
+   50 root              0 [cpuhp/5]
+   51 root              0 [idle_inject/5]
+   52 root              0 [migration/5]
+   53 root              0 [rcuc/5]
+   54 root              0 [ksoftirqd/5]
+   56 root              0 [kworker/5:0H-kverityd]
+   57 root              0 [cpuhp/6]
+   58 root              0 [idle_inject/6]
+   59 root              0 [migration/6]
+   60 root              0 [rcuc/6]
+   61 root              0 [ksoftirqd/6]
+   64 root              0 [cpuhp/7]
+   65 root              0 [idle_inject/7]
+   66 root              0 [migration/7]
+   67 root              0 [rcuc/7]
+   68 root              0 [ksoftirqd/7]
+   71 root              0 [inet_frag_wq]
+   80 root              0 [kauditd]
+   81 root              0 [khungtaskd]
+   82 root              0 [oom_reaper]
+   83 root              0 [writeback]
+   84 root              0 [kcompactd0]
+   85 root              0 [kblockd]
+   86 root              0 [blkcg_punt_bio]
+   87 root              0 [edac-poller]
+   88 root              0 [devfreq_wq]
+   89 root              0 [watchdogd]
+   90 root              0 [quota_release_w]
+   93 root              0 [kswapd0]
+   95 root              0 [erofs_worker/0]
+  105 root              0 [dmabuf-deferred-free-worker]
+  106 root              0 [uas]
+  107 root              0 [uether]
+  108 root              0 [dm_bufio_cache]
+  109 root              0 [mld]
+  110 root              0 [ipv6_addrconf]
+  111 root              0 [krfcommd]
+  114 root              0 [five_wq]
+  115 root              0 [five_hook_wq]
+  116 root              0 [acpm_update_log]
+  117 root              0 [irq/14-11990000.acpm_ipc]
+  118 root              0 [irq/167-s2mpu]
+  119 root              0 [irq/168-s2mpu]
+  120 root              0 [irq/169-s2mpu]
+  121 root              0 [irq/170-s2mpu]
+  122 root              0 [irq/171-s2mpu]
+  123 root              0 [irq/172-s2mpu]
+  124 root              0 [irq/173-s2mpu]
+  125 root              0 [irq/174-s2mpu]
+  126 root              0 [irq/175-s2mpu]
+  127 root              0 [irq/176-s2mpu]
+  128 root              0 [irq/177-s2mpu]
+  129 root              0 [irq/178-s2mpu]
+  130 root              0 [irq/179-s2mpu]
+  131 root              0 [irq/180-s2mpu]
+  132 root              0 [irq/181-s2mpu]
+  133 root              0 [irq/182-s2mpu]
+  134 root              0 [irq/183-s2mpu]
+  135 root              0 [irq/184-s2mpu]
+  136 root              0 [irq/185-s2mpu]
+  137 root              0 [irq/186-s2mpu]
+  138 root              0 [irq/187-s2mpu]
+  139 root              0 [irq/188-s2mpu]
+  140 root              0 [irq/189-exynos-el2]
+  141 root              0 [irq/24-118d0000.exynos-adv_tracer]
+  142 root              0 [sec_abc_wq]
+  143 root              0 [blk_sec_common]
+  144 root              0 [sec_audio_dbg_s]
+  145 root              0 [chub_log_kthread]
+  146 root              0 [irq/250-119f0000.contexthub]
+  148 root              0 [irq/192-tzasc]
+  149 root              0 [irq/193-tzasc]
+  150 root              0 [fast_switch_post_worker_dm_cpucl0]
+  151 root              0 [fast_switch_post_worker_dm_cpucl1]
+  152 root              0 [cpif_tpmon_moni]
+  153 root              0 [cpif_tpmon_boos]
+  154 root              0 [shmem_tx_wq]
+  155 root              0 [thermal_BIG]
+  156 root              0 [thermal_hotplug_kworker]
+  157 root              0 [thermal_LITTLE]
+  158 root              0 [thermal_G3D]
+  159 root              0 [thermal_ISP]
+  160 root              0 [thermal_CP]
+  161 root              0 [g3d_dvfs]
+  162 root              0 [kbase_job_fault]
+  164 root              0 [simpleinteractive]
+  165 root              0 [simpleinteractive]
+  166 root              0 [simpleinteractive]
+  167 root              0 [simpleinteractive]
+  168 root              0 [simpleinteractive]
+  169 root              0 [simpleinteractive]
+  170 root              0 [simpleinteractive]
+  171 root              0 [simpleinteractive]
+  172 root              0 [simpleinteractive]
+  173 root              0 [hwrng]
+  174 root              0 [irq/127-14c50000.sysmmu]
+  175 root              0 [irq/128-14c50000.sysmmu]
+  176 root              0 [irq/129-15110000.sysmmu]
+  177 root              0 [irq/130-15110000.sysmmu]
+  178 root              0 [irq/131-15140000.sysmmu]
+  179 root              0 [irq/132-15140000.sysmmu]
+  180 root              0 [abox_ipc]
+  181 root              0 [irq/133-154d0000.sysmmu]
+  182 root              0 [irq/134-154d0000.sysmmu]
+  183 root              0 [irq/135-155a0000.sysmmu]
+  184 root              0 [irq/136-155a0000.sysmmu]
+  185 root              0 [irq/137-14900000.sysmmu]
+  186 root              0 [irq/138-14900000.sysmmu]
+  187 root              0 [irq/139-149d0000.sysmmu]
+  188 root              0 [irq/140-149d0000.sysmmu]
+  189 root              0 [irq/141-15850000.sysmmu]
+  190 root              0 [abox_qos]
+  191 root              0 [irq/142-15850000.sysmmu]
+  192 root              0 [irq/143-12e70000.sysmmu]
+  193 root              0 [irq/144-12e70000.sysmmu]
+  194 root              0 [irq/145-12cd0000.sysmmu]
+  195 root              0 [irq/146-12cd0000.sysmmu]
+  196 root              0 [irq/147-12dd0000.sysmmu]
+  197 root              0 [irq/148-12dd0000.sysmmu]
+  198 root              0 [irq/149-15630000.sysmmu]
+  199 root              0 [irq/150-15630000.sysmmu]
+  200 root              0 [irq/151-15660000.sysmmu]
+  201 root              0 [irq/152-15660000.sysmmu]
+  202 root              0 [irq/153-15690000.sysmmu]
+  203 root              0 [irq/154-15690000.sysmmu]
+  204 root              0 [irq/155-156c0000.sysmmu]
+  205 root              0 [irq/156-156c0000.sysmmu]
+  206 root              0 [irq/157-14a70000.sysmmu]
+  207 root              0 [irq/158-14a70000.sysmmu]
+  208 root              0 [rbin]
+  209 root              0 [rbin_shrink]
+  210 root              0 [crtc0_kthread]
+  211 root              0 [crtc1_kthread]
+  212 root              0 [card0-crtc0]
+  213 root              0 [card0-crtc1]
+  214 root              0 [panel0:disp-det]
+  215 root              0 [panel0:pcd]
+  216 root              0 [panel0:err-fg]
+  217 root              0 [panel0:conn-det]
+  218 root              0 [panel0:panel-co]
+  219 root              0 [panel0:panel-up]
+  220 root              0 [panel0:evasion-]
+  221 root              0 [panel0:late_pro]
+  222 root              0 [panel-bl-thread]
+  223 root              0 [abd_blank_workq]
+  224 root              0 [wq_vsync]
+  225 root              0 [wq_fsync]
+  226 root              0 [wq_dispon]
+  227 root              0 [wq_panel_probe]
+  228 root              0 [log_collector]
+  229 root              0 [failure_wq]
+  230 root              0 [syserr_recovery]
+  231 root              0 [fm_client_wq]
+  232 root              0 [tz_worker_thread/0]
+  233 root              0 [tz_worker_thread/1]
+  234 root              0 [tz_worker_thread/2]
+  235 root              0 [tz_worker_thread/3]
+  236 root              0 [tz_worker_thread/4]
+  237 root              0 [tz_worker_thread/5]
+  238 root              0 [tz_worker_thread/6]
+  239 root              0 [tz_worker_thread/7]
+  240 root              0 [ree_time]
+  241 root              0 [tz_iwlog_thread]
+  242 root              0 [tzdev_iw_events_thread]
+  243 root              0 [tz_iwsock]
+  244 root              0 [typec_manager_e]
+  245 root              0 [typec_manager_m]
+  246 root              0 [spi3]
+  247 root              0 [wifilogger]
+  248 root              0 [wifilogger]
+  249 root              0 [wifilogger]
+  250 root              0 [wifilogger]
+  252 root              0 [cfg80211]
+  253 root              0 [conn_logger]
+  254 root              0 [usb_notify]
+  255 root              0 [irq/271-s2mpu15-irq@11-001f]
+  256 root              0 [s2mpu15-keys-wq]
+  257 root              0 [s2mpu15-keys-wq]
+  258 root              0 [s2mpa05-wqueue@]
+  259 root              0 [scsi_eh_0]
+  260 root              0 [scsi_tmf_0]
+  261 root              0 [ufs_perf_0]
+  262 root              0 [ufs_eh_wq_0]
+  263 root              0 [ufs_clk_gating_]
+  264 root              0 [usb_int_qos_wq]
+  265 root              0 [usb_tpmon_wq]
+  274 root              0 [srpmb_wq]
+  275 root              0 [mfc/inst_migrat]
+  276 root              0 [mfc/butler]
+  277 root              0 [irq/333-12ed0000.MFC-0]
+  278 root              0 [mfc_core/meerka]
+  279 root              0 [mfc_core/idle]
+  280 root              0 [mfc_core/butler]
+  281 root              0 [mfc_core/qos_ct]
+  282 root              0 [irq/372-sm5714-irq]
+  283 root              0 [samsung_mobile_]
+  284 root              0 [sm5714-charger]
+  285 root              0 [pdic_irq_event]
+  286 root              0 [irq/373-sm5714-usbpd]
+  288 root              0 [dw-mci-card]
+  289 root              0 [dw_mci_clk_ctrl]
+  290 root              0 [shub_dev_wq]
+  291 root              0 [shub_debug_wq]
+  292 root              0 [irq/375-goodix_fp_irq]
+  293 root              0 [fingerprint_deb]
+  294 root              0 [bootc_wq]
+  295 root              0 [sm5451-PD-DC]
+  296 root              0 [irq/376-NVT-ts]
+  298 root              0 [irq/377-A96T3X6]
+  299 root              0 [sec_vibrator]
+  300 root              0 [pass-through]
+  302 root              0 [irq/379-sma1305]
+  306 root              0 [jbd2/sda28-8]
+  307 root              0 [ext4-rsv-conver]
+  309 root              0 [kdmflush]
+  310 root              0 [kdmflush]
+  311 root              0 [kdmflush]
+  312 root              0 [kdmflush]
+  313 root              0 [kdmflush]
+  314 root              0 [kdmflush]
+  315 root              0 [kdmflush]
+  316 root              0 [kverityd]
+  318 root              0 [kdmflush]
+  319 root              0 [kverityd]
+  320 root              0 [kdmflush]
+  321 root              0 [kverityd]
+  322 root              0 [kdmflush]
+  323 root              0 [kverityd]
+  324 root              0 [kdmflush]
+  325 root              0 [kverityd]
+  326 root              0 [kdmflush]
+  327 root              0 [kverityd]
+  328 root              0 [kdmflush]
+  329 root              0 [kverityd]
+  330 root              0 [ext4-rsv-conver]
+  331 root              0 [kdmflush]
+  332 root              0 [kverityd]
+  333 root              0 [ext4-rsv-conver]
+  343 root           2236 init
+  344 root           2676 ueventd
+  359 root              0 [kdmflush]
+  360 root              0 [kdmflush]
+  361 root              0 [kdmflush]
+  362 root              0 [kdmflush]
+  363 root              0 [kdmflush]
+  364 root              0 [kdmflush]
+  365 root              0 [kdmflush]
+  366 root              0 [kdmflush]
+  367 root              0 [kdmflush]
+  368 root              0 [kdmflush]
+  369 root              0 [kdmflush]
+  370 root              0 [kdmflush]
+  371 root              0 [kdmflush]
+  373 root              0 [kdmflush]
+  375 root              0 [kdmflush]
+  376 root              0 [kdmflush]
+  377 root              0 [kworker/2:2-five_wq]
+  379 root              0 [kdmflush]
+  381 root              0 [kdmflush]
+  383 root              0 [kdmflush]
+  385 root              0 [kdmflush]
+  388 root              0 [kdmflush]
+  389 root              0 [kdmflush]
+  395 root              0 [kworker/7:8H-kverityd]
+  399 root              0 [ext4-rsv-conver]
+  400 root              0 [ext4-rsv-conver]
+  401 root              0 [ext4-rsv-conver]
+  402 root              0 [ext4-rsv-conver]
+  403 root              0 [ext4-rsv-conver]
+  406 root              0 [irq/378-rt5691]
+  407 root            568 init
+  410 root              0 [kworker/3:1-events]
+  415 prng_seeder    2192 prng_seeder
+  420 logd           6044 logd
+  421 lmkd           2932 lmkd
+  422 system         2584 servicemanager
+  423 system         1960 hwservicemanager
+  424 system         1916 vndservicemanager
+  425 root              0 [psimon]
+  439 root           1504 watchdogd
+  440 root           3220 vold
+  442 root              0 [jbd2/sda36-8]
+  443 root              0 [ext4-rsv-conver]
+  447 root              0 [jbd2/sda1-8]
+  448 root              0 [ext4-rsv-conver]
+  450 root              0 [jbd2/sdd1-8]
+  451 root              0 [ext4-rsv-conver]
+  453 root              0 [jbd2/sda35-8]
+  454 root              0 [ext4-rsv-conver]
+  456 root              0 [jbd2/sda2-8]
+  457 root              0 [ext4-rsv-conver]
+  459 root              0 [kdmflush]
+  464 wifi           1504 wlbtd
+  465 root           1652 iod
+  471 system         1580 tzdaemon
+  474 system         1476 tzts_daemon
+  480 system         2460 android.system.suspend-service
+  481 keystore       5772 keystore2
+  482 system         3168 android.hardware.security.keymint-service
+  483 system         2176 vendor.samsung.hardware.security.engmode@1.0-service
+  484 system         3124 vendor.samsung.hardware.security.fkeymaster-service
+  500 root              0 [f2fs_ckpt-254:54]
+  501 root              0 [f2fs_discard-254:54]
+  502 root              0 [f2fs_gc-254:54]
+  503 system         1704 vendor.samsung.hardware.security.proca@2.0-service
+  504 system         1984 vaultkeeperd
+  505 system         1556 vendor.samsung.hardware.security.vaultkeeper@2.0-service
+  510 tombstoned     1344 tombstoned
+  558 root              0 [kverityd]
+  559 root              0 [ext4-rsv-conver]
+  560 root              0 [ext4-rsv-conver]
+  561 root              0 [ext4-rsv-conver]
+  562 root              0 [ext4-rsv-conver]
+  563 root              0 [kverityd]
+  564 root              0 [ext4-rsv-conver]
+  565 root              0 [kverityd]
+  566 root              0 [kverityd]
+  567 root              0 [ext4-rsv-conver]
+  568 root              0 [ext4-rsv-conver]
+  569 root              0 [ext4-rsv-conver]
+  571 root              0 [ext4-rsv-conver]
+  572 root              0 [kverityd]
+  573 root              0 [ext4-rsv-conver]
+  574 root              0 [ext4-rsv-conver]
+  575 root              0 [ext4-rsv-conver]
+  576 root              0 [kverityd]
+  577 root              0 [ext4-rsv-conver]
+  578 root              0 [ext4-rsv-conver]
+  579 root              0 [kverityd]
+  580 root              0 [kverityd]
+  581 root              0 [kverityd]
+  582 root              0 [kverityd]
+  583 root              0 [kverityd]
+  584 root              0 [ext4-rsv-conver]
+  585 root              0 [kverityd]
+  586 root              0 [ext4-rsv-conver]
+  587 root              0 [kverityd]
+  588 root              0 [kverityd]
+  589 root              0 [ext4-rsv-conver]
+  590 root              0 [kverityd]
+  591 root              0 [kverityd]
+  592 root              0 [ext4-rsv-conver]
+  593 root              0 [kverityd]
+  594 root              0 [kverityd]
+  595 root              0 [kverityd]
+  596 root              0 [ext4-rsv-conver]
+  597 root              0 [kverityd]
+  598 root              0 [kverityd]
+  599 root              0 [kverityd]
+  600 root              0 [ext4-rsv-conver]
+  601 root              0 [ext4-rsv-conver]
+  602 root              0 [ext4-rsv-conver]
+  603 root              0 [ext4-rsv-conver]
+  604 root              0 [ext4-rsv-conver]
+  605 root              0 [ext4-rsv-conver]
+  606 root              0 [ext4-rsv-conver]
+  607 root              0 [ext4-rsv-conver]
+  608 root              0 [ext4-rsv-conver]
+  609 root              0 [ext4-rsv-conver]
+  610 root              0 [ext4-rsv-conver]
+  611 root              0 [ext4-rsv-conver]
+  612 root              0 [ext4-rsv-conver]
+  613 root              0 [ext4-rsv-conver]
+  614 root              0 [ext4-rsv-conver]
+  615 root              0 [ext4-rsv-conver]
+  616 root              0 [ext4-rsv-conver]
+  618 root              0 [ext4-rsv-conver]
+  619 root              0 [ext4-rsv-conver]
+  620 root              0 [ext4-rsv-conver]
+  634 vendor_audit   1468 auditd
+  640 system         1656 cass
+  641 system         2356 emservice
+  653 statsd         6560 statsd
+  654 root           3552 netd
+  655 root          41432 zygote64
+  656 root          11964 zygote
+  660 system         1600 android.hidl.allocator@1.0-service
+  661 audioserver    4568 android.hardware.audio.service
+  662 bluetooth      1568 android.hardware.bluetooth@1.1-service
+  663 media          1820 android.hardware.drm-service.clearkey
+  664 media          2080 android.hardware.drm-service.widevine
+  665 system         1584 android.hardware.gatekeeper@1.0-service
+  666 system         2444 android.hardware.graphics.allocator@4.0-service
+  671 system         3252 android.hardware.graphics.composer@2.4-service
+  672 system         2736 android.hardware.sensors@2.0-service.multihal
+  673 root           2056 android.hardware.usb@1.3-service.coral
+  674 wifi           1988 android.hardware.wifi@1.0-service
+  675 system         2820 vendor.samsung.hardware.biometrics.face-service
+  676 system         2440 vendor.samsung.hardware.hyper-service
+  677 system         1860 vendor.samsung.hardware.light-service
+  678 nobody         1844 android.hardware.memtrack-service.exynos
+  679 system         2148 android.hardware.power.samsung-service
+  681 mediacodec     2608 samsung.hardware.media.c2@1.2-service
+  682 root           1648 ip6tables-restore
+  684 mediacodec     2328 samsung.software.media.c2@1.0-service
+  685 cameraserver   2456 vendor.samsung.hardware.camera.provider-service_64
+  686 system         2600 vendor.samsung.hardware.health-service
+  687 system         2148 vendor.samsung.hardware.security.drk@2.0-service
+  688 system         1724 vendor.samsung.hardware.sysinput@1.3-service
+  689 system         2480 vendor.samsung.hardware.thermal@1.0-service
+  690 system         2200 vendor.samsung.hardware.vibrator-service
+  691 wifi           1536 vendor.samsung.hardware.wifi@2.0-service
+  692 system         1920 vendor.samsung_slsi.hardware.ExynosHWCServiceTW@1.0-service
+  695 system         1556 vendor.samsung_slsi.hardware.epic@1.0-service
+  696 audioserver   10532 audioserver
+  697 credstore      1712 credstore
+  698 gpu_service    1864 gpuservice
+  699 system_kumiho_dec 2704 kumiho.decoder
+  700 system         1792 perfmond
+  703 system        23416 surfaceflinger
+  783 drm             656 drmserver
+  784 system         1640 ewlogd
+  785 nobody         1256 traced_probes
+  789 nobody         1772 traced
+  817 cameraserver   3640 cameraserver
+  818 system         1744 fabric_crypto
+  820 system         1452 imsd
+  821 incidentd      1564 incidentd
+  822 root              0 [kbase_event]
+  823 system         1728 smdexe
+  830 system         1424 ddexe
+  831 system         1536 connfwexe
+  833 root           2484 installd
+  834 mediaex        5404 media.extractor
+  835 media          2876 media.metrics
+  837 media         21792 mediaserver
+  838 system         1656 speg_helper
+  839 system         1668 spqr_service
+  841 root           2828 storaged
+  844 wifi           2236 wificond
+  847 mediacodec      220 media.codec
+  848 system         1556 dmd
+  852 system         1160 epic
+  853 radio          1288 cbd
+  854 gps            1972 gpsd
+  855 system         1988 vendor.samsung.hardware.gnss-service
+  860 radio          2404 rild
+  863 mediacodec     4376 media.swcodec
+  865 system         2088 gatekeeperd
+  869 audioserver    1252 abox_log
+  870 system         4868 vendor.samsung.hardware.biometrics.fingerprint-service
+ 1023 radio          2104 multiclientd
+ 1046 system       322724 system_server
+ 1291 root              0 [kworker/6:3H-kverityd]
+ 1459 root           1628 iptables-restore
+ 1466 root              0 [fwhdr_crc_wq]
+ 1474 root              0 [mxmgmt_thread_wlan]
+ 1475 root              0 [mxlog_thread]
+ 1476 root              0 [hip4_work]
+ 1482 wifi           2044 wpa_supplicant
+ 1491 radio         48908 com.android.phone
+ 1528 u0_a54       262212 com.android.systemui
+ 1625 network_stack 46928 com.android.networkstack.process
+ 1643 system        34120 com.sec.epdg
+ 1720 root              0 [kworker/u16:6-blk_sec_common]
+ 1734 root              0 [kworker/1:1-pm]
+ 1748 root              0 [kworker/6:0-events]
+ 1754 webview_zygote 23108 webview_zygote
+ 1943 system        32132 com.sec.sve
+ 1957 system        34936 com.sec.imsservice
+ 1959 secure_element 30960 com.android.se
+ 2003 system        34356 com.samsung.android.svcagent
+ 2012 u0_a114       89844 com.sec.android.app.launcher
+ 2077 u0_a221       38216 com.google.android.ext.services
+ 2101 root              0 [kworker/0:5H-kblockd]
+ 2229 vendor_knoxcore 31664 com.samsung.android.knox.containercore
+ 2293 root              0 [kbase_event]
+ 2360 u0_a189      253836 com.google.android.gms
+ 2381 system        42360 com.samsung.android.fmm
+ 2383 root              0 [kworker/2:0H]
+ 2472 u0_a48        52272 android.process.acore
+ 2574 u0_a189       40220 com.google.process.gservices
+ 2605 u0_a81        30032 com.android.proxyhandler
+ 2625 oem_5013      40684 com.sec.location.nsflp2
+ 2682 system         1544 perfsdkserver
+ 2714 root              0 [zram0_wbd]
+ 2717 system         2032 pageboostd
+ 2987 root              0 [kworker/4:0-events]
+ 3074 root              0 [kworker/7:0H-kverityd]
+ 3090 u0_a87        35336 com.sec.spp.push
+ 3115 u0_a383       75344 com.supercell.clashofclans
+ 3139 u0_a383       16340 com.sec.epdg
+ 3345 u150_a48      37880 android.process.acore
+ 3439 root              0 [kworker/5:2-events]
+ 3469 root              0 [kworker/0:1H-kverityd]
+ 3470 root              0 [kworker/6:2H-kverityd]
+ 3471 root              0 [kworker/0:3H-fsverity_read_queue]
+ 3476 root              0 [kworker/2:1-events]
+ 3477 root              0 [kworker/3:2-events]
+ 3481 root              0 [kworker/5:3-events]
+ 3482 root              0 [kworker/0:1-events]
+ 3483 root              0 [kworker/u16:3-blk_sec_common]
+ 3484 system        43976 com.samsung.sait.sohservice
+ 3519 u150_a221     32480 com.google.android.ext.services
+ 3675 root              0 [kworker/7:3H-kverityd]
+ 3723 u0_a268      158284 com.google.android.inputmethod.latin
+ 3802 u0_a231       44412 com.google.android.providers.media.module
+ 3819 u0_a183       43684 com.google.android.as
+ 3842 u0_a192       48500 com.google.android.googlequicksearchbox:interactor
+ 3876 system        48656 com.sec.android.diagmonagent
+ 3892 system        55028 com.sec.android.sdhms
+ 4141 u0_a423      107844 bitpit.launcher
+ 4195 root              0 [kworker/u17:1-ufs_clk_gating_0]
+ 4213 system        38644 com.wssyncmldm
+ 4333 root              0 [kworker/1:0-events]
+ 4344 root              0 [kworker/u16:0-loop45]
+ 4351 root              0 [kworker/6:1-five_wq]
+ 4352 root              0 [kworker/6:0H-kverityd]
+ 4367 root              0 [kbase_event]
+ 4414 root              0 [kworker/0:4H-kverityd]
+ 4426 root              0 [kworker/4:0H-kblockd]
+ 4438 radio         49296 com.samsung.android.app.telephonyui
+ 4487 root              0 [kworker/7:1H-kverityd]
+ 4489 root              0 [kworker/6:1H-kverityd]
+ 4523 root              0 [kworker/5:0-events]
+ 4547 root              0 [kworker/6:4H-kverityd]
+ 4553 root              0 [kworker/6:5H-kverityd]
+ 4554 root              0 [kworker/0:2-g3d_dvfs]
+ 4560 root              0 [kworker/7:0]
+ 4561 root              0 [kworker/7:1-events]
+ 4676 system       159824 com.android.settings
+ 4696 root              0 [kworker/7:2H-kverityd]
+ 4697 root              0 [kworker/7:4H-kverityd]
+ 4698 root              0 [kworker/7:5H-kverityd]
+ 4699 root              0 [kworker/7:6H-kverityd]
+ 4701 root              0 [kworker/7:7H-kverityd]
+ 4702 root              0 [kworker/7:9H-kverityd]
+ 4703 root              0 [kworker/7:10H-kverityd]
+ 4705 root              0 [kworker/7:11H-kverityd]
+ 4706 root              0 [kworker/7:12H-kverityd]
+ 4707 root              0 [kworker/7:13H-kverityd]
+ 4708 root              0 [kworker/7:14H-kverityd]
+ 4709 root              0 [kworker/7:15H-kverityd]
+ 4711 root              0 [kworker/7:16H-kverityd]
+ 4712 root              0 [kbase_event]
+ 4719 root              0 [kworker/7:17H-kverityd]
+ 4720 root              0 [kworker/7:18H-kverityd]
+ 4721 root              0 [kworker/7:19H-kverityd]
+ 4722 root              0 [kworker/7:20H-kverityd]
+ 4723 root              0 [kworker/7:21H-kverityd]
+ 4724 root              0 [kworker/7:22H-kverityd]
+ 4725 root              0 [kworker/7:23H-kverityd]
+ 4727 root              0 [kworker/7:24H-kverityd]
+ 4728 root              0 [kworker/7:25H-kverityd]
+ 4729 root              0 [kworker/7:26H-kverityd]
+ 4730 root              0 [kworker/7:27H-kverityd]
+ 4734 root              0 [kworker/7:28H-kverityd]
+ 4735 root              0 [kworker/7:29H-kverityd]
+ 4738 root              0 [kworker/7:30H-kverityd]
+ 4739 root              0 [kworker/7:31H-kverityd]
+ 4740 root              0 [kworker/7:32H-kverityd]
+ 4741 root              0 [kbase_event]
+ 4743 root              0 [kworker/7:33H-kverityd]
+ 4749 root              0 [kworker/7:34H-kverityd]
+ 4750 root              0 [kworker/7:35H-kverityd]
+ 4751 root              0 [kworker/7:36H-kverityd]
+ 4752 root              0 [kworker/7:37H-kverityd]
+ 4753 root              0 [kworker/7:38H-kverityd]
+ 4755 root              0 [kworker/7:39H-kverityd]
+ 4756 root              0 [kworker/7:40H-kverityd]
+ 4757 root              0 [kworker/7:41H-kverityd]
+ 4758 root              0 [kworker/7:42H-kverityd]
+ 4760 root              0 [kworker/7:43H-kverityd]
+ 4761 root              0 [kworker/7:44H-kverityd]
+ 4762 root              0 [kworker/7:45H-kverityd]
+ 4763 root              0 [kworker/7:46H-kverityd]
+ 4764 root              0 [kworker/7:47H-kverityd]
+ 4769 root              0 [kworker/7:48H-kverityd]
+ 4770 root              0 [kworker/7:49H-kverityd]
+ 4771 root              0 [kworker/7:50H-kverityd]
+ 4772 root              0 [kworker/7:51H-kverityd]
+ 4773 root              0 [kworker/7:52H-kverityd]
+ 4775 root              0 [kworker/7:53H-kverityd]
+ 4776 root              0 [kworker/7:54H-kverityd]
+ 4777 root              0 [kworker/7:55H-kverityd]
+ 4778 root              0 [kworker/7:56H-kverityd]
+ 4779 root              0 [kworker/7:57H-kverityd]
+ 4780 root              0 [kworker/7:58H-kverityd]
+ 4782 root              0 [kworker/7:59H-kverityd]
+ 4783 root              0 [kworker/7:60H-kverityd]
+ 4784 root              0 [kworker/7:61H-kverityd]
+ 4786 root              0 [kworker/7:62H-kverityd]
+ 4787 root              0 [kworker/7:63H-kverityd]
+ 4788 root              0 [kworker/7:64H-kverityd]
+ 4789 root              0 [kworker/7:65H-kverityd]
+ 4790 root              0 [kworker/7:66H-kverityd]
+ 4791 root              0 [kworker/7:67H-kverityd]
+ 4792 root              0 [kworker/7:68H-kverityd]
+ 4793 root              0 [kworker/7:69H-kverityd]
+ 4795 root              0 [kworker/7:70H-kverityd]
+ 4796 root              0 [kworker/7:71H-kverityd]
+ 4797 root              0 [kworker/7:72H-kverityd]
+ 4798 root              0 [kworker/7:73H-kverityd]
+ 4799 root              0 [kworker/7:74H-kverityd]
+ 4801 root              0 [kworker/7:75H-kverityd]
+ 4802 root              0 [kworker/7:76H-kverityd]
+ 4803 root              0 [kworker/7:77H-kverityd]
+ 4804 root              0 [kworker/7:78H-kverityd]
+ 4805 root              0 [kworker/7:79H-kverityd]
+ 4806 root              0 [kworker/7:80H-kverityd]
+ 4807 root              0 [kworker/7:81H-kverityd]
+ 4808 root              0 [kworker/6:6H-kverityd]
+ 4809 root              0 [kworker/7:82H-kverityd]
+ 4810 root              0 [kworker/7:83H-kverityd]
+ 4811 root              0 [kworker/7:84H-kverityd]
+ 4812 root              0 [kworker/7:85H-kverityd]
+ 4813 root              0 [kworker/7:86H-kverityd]
+ 4814 root              0 [kworker/7:87H-kverityd]
+ 4815 root              0 [kworker/7:88H-kverityd]
+ 4816 root              0 [kworker/7:89H-kverityd]
+ 4817 root              0 [kworker/6:7H-kverityd]
+ 4818 root              0 [kworker/7:90H-kverityd]
+ 4819 root              0 [kworker/6:8H-kverityd]
+ 4820 root              0 [kworker/7:91H-kverityd]
+ 4821 root              0 [kworker/6:9H-kverityd]
+ 4822 root              0 [kworker/7:92H-kverityd]
+ 4823 root              0 [kworker/6:10H-kverityd]
+ 4824 root              0 [kworker/7:93H-kverityd]
+ 4825 root              0 [kworker/6:11H-kverityd]
+ 4826 root              0 [kworker/7:94H-kverityd]
+ 4827 root              0 [kworker/6:12H-kblockd]
+ 4828 root              0 [kworker/7:95H-kverityd]
+ 4829 root              0 [kworker/6:13H-kverityd]
+ 4830 root              0 [kworker/7:96H-kverityd]
+ 4831 root              0 [kworker/6:14H-kverityd]
+ 4832 root              0 [kworker/7:97H-kverityd]
+ 4833 root              0 [kworker/7:98H-kverityd]
+ 4834 root              0 [kworker/7:99H-kverityd]
+ 4836 root              0 [kworker/7:100H-kverityd]
+ 4837 root              0 [kworker/7:101H-kverityd]
+ 4842 root              0 [kworker/6:15H-kverityd]
+ 4843 root              0 [kworker/7:102H-kverityd]
+ 4844 root              0 [kworker/6:16H-kverityd]
+ 4845 root              0 [kworker/7:103H-kverityd]
+ 4846 root              0 [kworker/6:17H-kverityd]
+ 4848 root              0 [kworker/7:104H-kverityd]
+ 4849 root              0 [kworker/7:105H-kverityd]
+ 4850 root              0 [kworker/6:18H-kverityd]
+ 4851 root              0 [kworker/7:106H-kverityd]
+ 4852 root              0 [kworker/6:19H-kverityd]
+ 4853 root              0 [kworker/7:107H-kverityd]
+ 4854 root              0 [kworker/6:20H-kverityd]
+ 4855 root              0 [kworker/7:108H-kverityd]
+ 4856 root              0 [kworker/6:21H-kverityd]
+ 4857 root              0 [kworker/7:109H-kverityd]
+ 4858 root              0 [kworker/6:22H-kverityd]
+ 4859 root              0 [kworker/7:110H-kverityd]
+ 4860 root              0 [kworker/7:111H-kverityd]
+ 4861 root              0 [kworker/7:112H-kverityd]
+ 4863 root              0 [kworker/7:113H-kverityd]
+ 4865 root              0 [kworker/6:23H-kverityd]
+ 4868 root              0 [kworker/7:114H]
+ 4869 root              0 [kworker/6:24H-kverityd]
+ 4870 root              0 [kworker/6:25H-kverityd]
+ 4871 root              0 [kworker/6:26H-kverityd]
+ 4874 root              0 [kworker/6:27H-kverityd]
+ 4875 root              0 [kworker/6:28H-kverityd]
+ 4876 root              0 [kworker/6:29H-kverityd]
+ 4877 root              0 [kworker/6:30H-kverityd]
+ 4879 root              0 [kworker/6:31H-kverityd]
+ 4880 root              0 [kworker/6:32H-kverityd]
+ 4881 root              0 [kworker/6:33H-kverityd]
+ 4882 root              0 [kworker/6:34H-kverityd]
+ 4883 root              0 [kworker/6:35H-kverityd]
+ 4884 root              0 [kworker/6:36H-kverityd]
+ 4885 root              0 [kworker/6:37H-kverityd]
+ 4886 root              0 [kworker/6:38H-kverityd]
+ 4887 root              0 [kworker/6:39H-kverityd]
+ 4888 root              0 [kworker/6:40H-kverityd]
+ 4889 root              0 [kworker/6:41H-kverityd]
+ 4890 root              0 [kworker/6:42H-kverityd]
+ 4898 root              0 [kworker/6:43H-fsverity_read_queue]
+ 4900 root              0 [kworker/6:44H-kverityd]
+ 4909 u0_a54        56152 com.samsung.android.app.routines
+ 4911 root              0 [kbase_event]
+ 4962 u0_a103      146816 com.android.settings.intelligence
+ 4997 root              0 [kbase_event]
+ 5055 system        42720 com.samsung.android.lool
+ 5295 u0_a158       81916 com.samsung.android.honeyboard
+ 5367 root              0 [kworker/u16:1-blk_sec_common]
+ 5416 u0_a189      121780 com.google.android.gms.ui
+ 5452 u0_a561       45016 com.microsoft.appmanager:pnsvc
+ 5536 u0_a192      102104 com.google.android.googlequicksearchbox:search
+ 5557 root              0 [kworker/2:0-events]
+ 5560 root              0 [kworker/1:3-five_wq]
+ 5766 u0_a561       48188 com.microsoft.appmanager
+ 5843 u150_a231     43852 com.google.android.providers.media.module
+ 5873 root              0 [kworker/3:0-events]
+ 5874 root              0 [kworker/4:2-events]
+ 5879 u0_a192      135064 com.google.android.googlequicksearchbox:googleapp
+ 5902 u0_a207      177588 com.google.android.gm
+ 5933 u0_a645      101992 com.twitter.android
+ 6187 u0_i9034      46912 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+ 6308 root              0 [kbase_event]
+ 6369 u0_a46        37628 com.sec.android.provider.badge
+ 6419 u150_a46      37500 com.sec.android.provider.badge
+ 6469 u150_a183     39304 com.google.android.as
+ 6674 u150_a427     49260 com.gold.android.gms
+ 6707 root              0 [kworker/3:3]
+ 6711 vendor_smds   43736 com.samsung.android.sm.devicesecurity
+ 6736 15005012      42864 com.samsung.android.sm.devicesecurity
+ 6755 u0_a188       45640 com.google.android.apps.turbo
+ 6792 system        45192 com.samsung.android.dqagent
+ 6837 u0_a84        55808 com.samsung.android.rubin.app
+ 6858 root              0 [kworker/0:3]
+ 6927 root              0 [kworker/1:2]
+ 6976 u0_a92        84504 com.osp.app.signin
+ 7088 system        41652 com.sec.mhs.smarttethering
+ 7117 u0_a97        66104 com.samsung.android.mobileservice
+ 7152 system        44984 com.samsung.android.sm.provider
+ 7232 u0_a93        84884 com.samsung.android.scs
+ 7294 system        43604 com.samsung.accessibility
+ 7330 u0_a55        49904 android.process.media
+ 7340 system        42888 com.samsung.android.emergency
+ 7406 shell          4376 adbd
+ 7414 root              0 [irq/161-dwc3]
+ 7443 u0_i9000      46604 com.google.android.googlequicksearchbox:trusted_disable_art_image_:com.google.android.apps.gsa.hot
+ 7578 shell          3076 ps
+ 7780 system        35576 com.samsung.android.peripheral.framework
+ 8002 u0_a118       33568 com.samsung.android.knox.analytics.uploader
+ 8248 vendor_advmodem 37944 com.samsung.android.samsungpositioning
+ 9396 u0_a72        37400 com.samsung.android.game.gamehome:notification
+11706 u0_a190      100940 com.android.vending
+12542 root              0 [kbase_event]
+12781 root              0 [kbase_event]
+13327 u150_a189    116156 com.google.android.gms
+13599 u0_a427       42704 com.gold.android.gms:persistent
+14507 root              0 [dio/dm-54]
+14649 root              0 [kworker/4:2H-kverityd]
+14814 u0_a98        84496 com.samsung.android.spaymini
+16431 u150_a55      36700 android.process.media
+16803 15005004      37680 com.samsung.cmh
+17554 root              0 [kworker/u16:2-blk_sec_common]
+17720 u150_a324     25984 com.opera.browser_zygote
+18017 u0_a427       47720 com.gold.android.gms
+18708 root              0 [kworker/1:0H-kblockd]
+20745 root              0 [kbase_event]
+21486 root              0 [kworker/u17:0-mali_jd]
+21730 root              0 [erofs_worker/1]
+21731 root              0 [erofs_worker/2]
+21732 root              0 [erofs_worker/3]
+21733 root              0 [erofs_worker/4]
+21734 root              0 [erofs_worker/5]
+21735 root              0 [erofs_worker/6]
+21736 root              0 [erofs_worker/7]
+21875 root              0 [kworker/5:2H-kblockd]
+21876 root              0 [kworker/2:1H-kblockd]
+21974 system        31560 android:drmService
+22050 root              0 [kworker/u17:2-ev_unbound_wq]
+22949 u150_a138     48184 com.facebook.appmanager
+23369 root              0 [kbase_event]
+24624 u0_a324       75800 com.opera.browser
+24787 root              0 [kbase_event]
+25692 root              0 [kworker/u17:3-mali_jd]
+25698 u150_a427     38468 com.gold.android.gms:persistent
+26419 root              0 [kbase_event]
+26581 root              0 [kbase_event]
+26837 u0_a113       38552 com.sec.android.app.volumemonitorprovider
+27014 root              0 [kworker/3:1H-kverityd]
+27516 root              0 [kworker/6:4-events]
+27593 u150_a189     64044 com.google.android.gms.unstable
+27750 root              0 [kworker/7:7-sock_diag_events]
+27751 root              0 [kworker/7:8-events]
+28245 u150_a100     42752 com.samsung.android.video
+28294 u0_a437      112148 com.gold.android.youtube
+28394 root              0 [kbase_event]
+28441 root              0 [kworker/0:0H-kblockd]
+28443 mdnsr          1524 mdnsd
+28511 u0_i9010      37428 com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0
+28564 root              0 [kbase_event]
+28690 u0_a324       51956 com.opera.browser:privileged_process0
+28717 root              0 [kbase_event]
+28797 u0_a86        62640 com.microsoft.skydrive
+28826 u0_a324       26924 com.opera.browser_zygote
+28851 u0_i100       39300 com.opera.browser:sandboxed_process0:com.opera.android.browser.chromium.services.SandboxedProcessS
+29220 vendor_samsungcloud 55684 com.samsung.android.scloud
+29327 system        39924 com.samsung.SMT
+29559 u0_i102       37012 com.opera.browser:sandboxed_process0:com.opera.android.browser.chromium.services.SandboxedProcessS
+30071 u0_a208       70108 com.google.android.youtube
+30283 root              0 [kworker/0:2H-kverityd]
+30356 root              0 [kbase_event]
+30502 vendor_samsungcloud 45440 com.samsung.android.scpm
+30734 root              0 [kbase_event]
+31518 vendor_cmhservice 40520 com.samsung.cmh
+31570 root              0 [kworker/0:0-five_wq]
+31581 root              0 [kworker/4:1H-kblockd]
+31582 root              0 [kworker/3:0H-kblockd]
+31674 u0_a66        69628 com.samsung.android.game.gametools
+31690 u0_a65        57256 com.samsung.android.game.gos
+31794 root              0 [kworker/1:2H-kverityd]
+31923 u0_a65            0 [sh]
+31938 u0_a65            0 [sh]
+31947 u0_a65            0 [sh]
+31960 u0_a65            0 [sh]
+31972 u0_a65            0 [sh]
+31980 u0_a65            0 [sh]
+31984 u0_a65            0 [sh]
+31987 u0_a65            0 [sh]
+31989 u0_a65            0 [sh]
+31992 root              0 [kbase_event]
+32000 u0_a65            0 [sh]
+32011 u0_a65            0 [sh]
+32018 u0_a65            0 [sh]
+32026 u0_a65            0 [sh]
+32040 u0_a65            0 [sh]
+32043 u0_a65            0 [sh]
+32049 u0_a65            0 [sh]
+32052 u0_a65            0 [sh]
+32056 u0_a65            0 [sh]
+32059 u0_a65            0 [sh]
+32647 root              0 [kworker/4:1-events]

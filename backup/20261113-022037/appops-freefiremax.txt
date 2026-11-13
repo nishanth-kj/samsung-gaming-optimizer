@@ -1,0 +1,13 @@
+Uid mode: READ_CALENDAR: ignore
+WRITE_CALENDAR: ignore
+CAMERA: ignore
+RECORD_AUDIO: ignore
+BLUETOOTH_CONNECT: ignore
+VIBRATE: allow; time=+18m38s624ms ago; duration=+304ms
+SYSTEM_ALERT_WINDOW: default; rejectTime=+5h8m45s507ms ago
+WAKE_LOCK: allow; time=+1d4h24m17s463ms ago; duration=+452ms
+WRITE_MEDIA_AUDIO: deny; rejectTime=+4h14m48s334ms ago
+WRITE_MEDIA_VIDEO: deny; rejectTime=+4h14m48s334ms ago
+WRITE_MEDIA_IMAGES: deny; rejectTime=+4h14m48s333ms ago
+MANAGE_EXTERNAL_STORAGE: default; rejectTime=+4h14m48s341ms ago
+NO_ISOLATED_STORAGE: deny; rejectTime=+4h14m48s342ms ago

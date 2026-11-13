@@ -1,0 +1,7 @@
+# Extra keep list used only by item R1M (keeps message notifications working)
+org.telegram.messenger
+org.thoughtcrime.securesms
+network.loki.messenger
+com.discord
+com.instagram.android
+com.google.android.gm

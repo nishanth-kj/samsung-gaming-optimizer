@@ -1,0 +1,191 @@
+Current Battery Service state:
+  AC powered: true
+  USB powered: false
+  Wireless powered: false
+  Dock powered: false
+  Max charging current: 0
+  Max charging voltage: 0
+  Charge counter: 2011500
+  status: 2
+  health: 2
+  present: true
+  level: 44
+  scale: 100
+  voltage: 3886
+  temperature: 339
+  technology: Li-ion
+  batteryMiscEvent: 65536
+  batteryCurrentEvent: 0
+  mSecPlugTypeSummary: 1
+  LED Charging: true
+  LED Low Battery: true
+  current now: 732
+  charge counter: 2011500
+  Adaptive Fast Charging Settings: true
+  Super Fast Charging Settings: false
+FEATURE_WIRELESS_FAST_CHARGER_CONTROL: true
+  mWasUsedWirelessFastChargerPreviously: false
+  mWirelessFastChargingSettingsEnable: true
+LLB CAL: 20230420
+LLB MAN: 
+LLB CURRENT: YEAR2026M11D12
+LLB DIFF: 186
+  mSavedBatteryBeginningDate: 0
+SEC_FEATURE_BATTERY_FULL_CAPACITY: true
+  mFullCapacityEnable: false
+FEATURE_HICCUP_CONTROL: true
+FEATURE_SUPPORTED_DAILY_BOARD: false
+SEC_FEATURE_BATTERY_LIFE_EXTENDER: false
+SEC_FEATURE_USE_WIRELESS_POWER_SHARING: false
+ mProtectBatteryMode: 0
+ mProtectionThreshold: 80
+ mLtcHighThreshold: 95
+ mLtcHighSocDuration: 10080
+ mLtcReleaseThreshold: 75
+[Not Battery Adaptive Protect Mode]
+BatteryInfoBackUp
+  mSavedBatteryAsoc: 100
+  mSavedBatteryMaxTemp: 491
+  mSavedBatteryMaxCurrent: 5757
+  mSavedBatteryUsage: 86841
+  mSavedFullStatusDuration: -1
+  FEATURE_SAVE_BATTERY_CYCLE: true
+
+### deviceidle whitelist
+system-excidle,com.sec.vsim.ericssonnsds.webapp,10078
+system-excidle,com.samsung.android.app.cocktailbarservice,10053
+system-excidle,com.android.providers.calendar,10090
+system-excidle,com.osp.app.signin,10092
+system-excidle,com.sec.android.app.safetyassurance,10106
+system-excidle,com.samsung.android.knox.containercore,5250
+system-excidle,com.samsung.android.easysetup,10058
+system-excidle,com.samsung.android.aware.service,10121
+system-excidle,com.sec.android.easyonehand,10137
+system-excidle,com.samsung.android.rubin.app,10084
+system-excidle,com.android.providers.downloads,10055
+system-excidle,com.sec.android.widgetapp.easymodecontactswidget,10407
+system-excidle,com.samsung.android.app.parentalcare,10452
+system-excidle,com.sec.android.app.samsungapps,10069
+system-excidle,com.sec.android.daemonapp,10168
+system-excidle,com.android.vending,10190
+system-excidle,com.samsung.android.intellivoiceservice,10451
+system-excidle,com.samsung.android.kmxservice,10406
+system-excidle,com.samsung.android.sm.devicesecurity,5012
+system-excidle,com.samsung.android.messaging,10101
+system-excidle,com.samsung.klmsagent,10070
+system-excidle,com.sec.imsservice,1000
+system-excidle,com.facebook.services,10062
+system-excidle,com.samsung.android.mobileservice,10097
+system-excidle,com.samsung.android.mdx.kit,5025
+system-excidle,com.samsung.android.kgclient,10073
+system-excidle,com.samsung.android.game.gametools,10066
+system-excidle,com.samsung.android.app.contacts,10094
+system-excidle,com.samsung.android.service.peoplestripe,10080
+system-excidle,com.samsung.android.app.smartcapture,10167
+system-excidle,com.samsung.android.server.wifi.mobilewips,10076
+system-excidle,com.google.android.gms,10189
+system-excidle,com.sec.spp.push,10087
+system-excidle,com.android.proxyhandler,10081
+system-excidle,com.samsung.android.app.routines,10054
+system-excidle,com.android.managedprovisioning,10075
+system-excidle,com.samsung.android.dialer,10096
+system-excidle,com.samsung.android.game.gos,10065
+system-excidle,com.samsung.android.forest,1000
+system-excidle,com.samsung.android.beaconmanager,5006
+system-excidle,com.samsung.android.mdm,10149
+system-excidle,com.samsung.android.scs,10093
+system-excidle,com.sec.unifiedwfc,10173
+system-excidle,com.samsung.android.app.updatecenter,10042
+system-excidle,com.samsung.android.app.sharelive,5026
+system-excidle,com.samsung.android.dbsc,10448
+system-excidle,com.samsung.android.settingshelper,10449
+system-excidle,com.samsung.android.knox.analytics.uploader,10118
+system-excidle,com.sec.android.easyMover,10263
+system-excidle,com.google.android.apps.turbo,10188
+system-excidle,com.samsung.android.bluelightfilter,10049
+system-excidle,com.aura.oobe.samsung,10210
+system-excidle,com.android.shell,2000
+system-excidle,com.sec.enterprise.knox.cloudmdm.smdms,10172
+system-excidle,com.google.android.apps.carrier.carrierwifi,10179
+system-excidle,com.samsung.android.app.appsedge,10044
+system-excidle,com.samsung.android.sdk.handwriting,10143
+system-excidle,com.facebook.appmanager,10138
+system-excidle,com.google.android.cellbroadcastreceiver,10232
+system-excidle,com.samsung.sec.android.application.csc,1001
+system-excidle,com.samsung.android.sdm.config,10085
+system-excidle,com.samsung.android.video,10100
+system,com.sec.vsim.ericssonnsds.webapp,10078
+system,com.samsung.android.app.cocktailbarservice,10053
+system,com.android.providers.calendar,10090
+system,com.osp.app.signin,10092
+system,com.sec.android.app.safetyassurance,10106
+system,com.samsung.android.knox.containercore,5250
+system,com.samsung.android.easysetup,10058
+system,com.samsung.android.aware.service,10121
+system,com.sec.android.easyonehand,10137
+system,com.samsung.android.rubin.app,10084
+system,com.android.providers.downloads,10055
+system,com.sec.android.widgetapp.easymodecontactswidget,10407
+system,com.samsung.android.app.parentalcare,10452
+system,com.sec.android.app.samsungapps,10069
+system,com.sec.android.daemonapp,10168
+system,com.samsung.android.intellivoiceservice,10451
+system,com.samsung.android.kmxservice,10406
+system,com.samsung.android.sm.devicesecurity,5012
+system,com.samsung.android.messaging,10101
+system,com.samsung.klmsagent,10070
+system,com.sec.imsservice,1000
+system,com.facebook.services,10062
+system,com.samsung.android.mobileservice,10097
+system,com.samsung.android.mdx.kit,5025
+system,com.samsung.android.kgclient,10073
+system,com.samsung.android.game.gametools,10066
+system,com.samsung.android.app.contacts,10094
+system,com.samsung.android.service.peoplestripe,10080
+system,com.samsung.android.app.smartcapture,10167
+system,com.samsung.android.server.wifi.mobilewips,10076
+system,com.google.android.gms,10189
+system,com.sec.spp.push,10087
+system,com.samsung.android.app.routines,10054
+system,com.android.managedprovisioning,10075
+system,com.samsung.android.dialer,10096
+system,com.samsung.android.game.gos,10065
+system,com.samsung.android.forest,1000
+system,com.samsung.android.beaconmanager,5006
+system,com.samsung.android.mdm,10149
+system,com.samsung.android.scs,10093
+system,com.sec.unifiedwfc,10173
+system,com.samsung.android.app.updatecenter,10042
+system,com.samsung.android.app.sharelive,5026
+system,com.samsung.android.dbsc,10448
+system,com.samsung.android.settingshelper,10449
+system,com.samsung.android.knox.analytics.uploader,10118
+system,com.sec.android.easyMover,10263
+system,com.samsung.android.bluelightfilter,10049
+system,com.aura.oobe.samsung,10210
+system,com.android.shell,2000
+system,com.sec.enterprise.knox.cloudmdm.smdms,10172
+system,com.samsung.android.app.appsedge,10044
+system,com.samsung.android.sdk.handwriting,10143
+system,com.google.android.cellbroadcastreceiver,10232
+system,com.samsung.sec.android.application.csc,1001
+system,com.samsung.android.sdm.config,10085
+system,com.samsung.android.video,10100
+user,com.microsoft.appmanager,10561
+user,com.gold.android.gms,10427
+user,com.sec.android.daemonapp,10168
+user,com.samsung.android.sidegesturepad,10240
+user,app.revanced.manager.flutter,10642
+user,com.samsung.android.samsungpositioning,5017
+user,com.sec.android.app.clockpackage,10392
+user,com.samsung.android.ipsgeofence,5022
+user,com.fly.gps,10376
+user,com.samsung.android.app.appsedge,10044
+
+### power save
+  mIsPowered=true
+  mStayOn=true
+  mLowPowerStandbyActive=false
+  mStayOnWhilePluggedInSetting=15
+  mIsPowered=true
+  mBatterySaverStickyBehaviourDisabled=false

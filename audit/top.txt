@@ -1,0 +1,30 @@
+Tasks: 848 total,   1 running, 828 sleeping,   0 stopped,  19 zombie
+  Mem:  5603796K total,  5313104K used,   290692K free,     2076K buffers
+ Swap:  6291452K total,  2593456K used,  3697996K free,  1937964K cached
+800%cpu  19%user   0%nice  26%sys 748%idle   3%iow   3%irq   0%sirq   0%host
+  PID USER         PR  NI VIRT  RES  SHR S[%CPU] %MEM     TIME+ ARGS
+ 7443 u0_i9000     20   0 8.5G  46M  22M S 19.3   0.8  15:55.78 com.google.android.googlequicksearchbox:trusted_disable_art_image_:com.google.android.apps.gsa.hot
+ 7583 shell        20   0 2.1G 3.5M 2.3M R 12.9   0.0   0:00.09 top -b -n 1 -m 25
+  696 audioserver  20   0 2.9G  10M 7.1M S  6.4   0.1  18:14.43 audioserver
+  661 audioserver  20   0 2.6G 4.4M 3.0M S  6.4   0.0  11:57.74 android.hardware.audio.service
+ 5933 u0_a645      20   0  10G 100M  84M S  3.2   1.8   0:04.39 com.twitter.android
+ 5367 root         20   0    0    0    0 I  3.2   0.0   0:01.23 [kworker/u16:1-five_hook_wq]
+31570 root         20   0    0    0    0 I  3.2   0.0   0:05.74 [kworker/0:0-events]
+28797 u0_a86       20   0 9.3G  61M  34M S  3.2   1.1   0:12.99 com.microsoft.skydrive
+ 1046 system       18  -2  17G 315M 126M S  3.2   5.7  38:41.35 system_server
+  151 root         RT   0    0    0    0 S  3.2   0.0   0:26.26 [fast_switch_post_worker_dm_cpucl1]
+  150 root         RT   0    0    0    0 S  3.2   0.0   0:51.26 [fast_switch_post_worker_dm_cpucl0]
+   61 root         20   0    0    0    0 S  3.2   0.0   0:04.77 [ksoftirqd/6]
+ 7414 root         RT   0    0    0    0 S  0.0   0.0   0:00.04 [irq/161-dwc3]
+ 7406 shell        20   0 2.2G 4.2M 2.9M S  0.0   0.0   0:00.33 adbd --root_seclabel=u:r:su:s0
+ 7340 system       20   0 7.4G  42M  21M S  0.0   0.7   0:00.19 com.samsung.android.emergency
+ 7294 system       20   0 7.4G  43M  22M S  0.0   0.7   0:00.43 com.samsung.accessibility
+ 7232 u0_a93       20   0 8.4G  83M  39M S  0.0   1.5   0:01.93 com.samsung.android.scs
+ 7152 system       20   0 7.4G  44M  23M S  0.0   0.8   0:00.27 com.samsung.android.sm.provider
+ 7117 u0_a97       20   0 8.8G  65M  37M S  0.0   1.1   0:00.84 com.samsung.android.mobileservice
+ 7088 system       20   0 7.4G  41M  20M S  0.0   0.7   0:00.32 com.sec.mhs.smarttethering
+ 6976 u0_a92       20   0 8.8G  83M  50M S  0.0   1.5   0:01.34 com.osp.app.signin
+ 6927 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/1:2]
+ 6858 root         20   0    0    0    0 I  0.0   0.0   0:00.00 [kworker/0:3]
+ 6792 system       20   0 7.4G  44M  23M S  0.0   0.8   0:00.24 com.samsung.android.dqagent
+ 6755 u0_a188      20   0 7.5G  45M  23M S  0.0   0.8   0:00.28 com.google.android.apps.turbo
