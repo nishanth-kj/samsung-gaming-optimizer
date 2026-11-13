@@ -49,3 +49,4 @@ Every script checks that the phone with serial `RZCW41AYWZF` is connected, autho
 ## Previous phone note
 
 The OnePlus Nord 6 (serial 3C1653000WL00000) still has `shortcut_manager_constants=max_shortcuts=0,…` set from an earlier session. That setting can crash apps (it crashed Grok). Undo it on the OnePlus with `adb shell settings delete global shortcut_manager_constants`, then reboot. It doesn't affect this Samsung.
+"# samsung-gaming-optimizer" 
